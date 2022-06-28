@@ -1,0 +1,45 @@
+*{
+    margin: 0;
+    padding: 0; 
+    box-sizing: border-box; /*para que el border y margin que le pongo esté incluido en el tamaño de la caja y no lo sume*/
+}
+body{
+    background-color: rgb(2, 2, 29);
+    color: white;
+    margin-top: 100px;
+}
+form{
+    width: 40%;
+    display: flex;
+    flex-direction:column;
+    padding: 10px;
+    border: rgb(255, 255, 255) 2px solid;
+    margin: auto;
+}
+.inp{
+    display: flex;
+    flex-direction:row;
+}
+input{
+    margin: 5px;
+    padding: 3px;
+}
+button{
+    width: 50%;
+    margin: auto;
+    background-color: rgb(47, 160, 45);
+    padding: 3px;
+}
+h2{
+    margin: auto;
+    color: rgb(47, 160, 45);
+}
+.datos{
+    width: 40%;
+    margin: auto;
+}
+.parr{
+    color: rgb(47, 160, 45);
+    width: 40%;
+    margin: auto;
+}

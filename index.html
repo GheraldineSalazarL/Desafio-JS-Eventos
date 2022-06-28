@@ -1,0 +1,46 @@
+<!DOCTYPE html> 
+<html lang="es"> 
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE-edge">
+        <meta name="viewport" content="width=device-width", initial-scale="1.0">
+        <link rel="stylesheet" href="estilos.css">
+        <title>Sistema de ingreso de estudiantes</title>
+    </head>
+
+    <body>
+        <form id="formulario">
+            <h2 class="titulof p-1">Ingreso de estudiantes</h4>
+            <input type="text" name="nombre" id="nombre" placeholder="Ingrese el nombre completo del estudiante">
+            <input type="tel" name="ident" id="ident" placeholder="Ingrese el número de identificación del estudiante">
+            <input type="tel" name="cel" id="cel" placeholder="Ingrese el número de celular del estudiante">
+            <input type="text" name="prog" id="prog" placeholder="Ingrese el programa">
+            <button type="submit" value="Enviar">Confirmar</button>
+        </form>
+        <br>
+        <br>
+        <div class="datos">
+            <h2>Registro exitoso del estudiante:</h2>
+            <br>
+            <div class="inp">
+                <p> <b> Nombre: </b> </p> <p id="nombreP"></p>
+            </div>
+            <div class="inp">
+                <p> <b> Número de identificación: </b> </p> <p id="identP"></p>
+            </div>
+            <div class="inp">
+                <p> <b> Celular: </b> </p><p id="celP"></p>
+            </div>
+            <div class="inp">
+                <p> <b> Programa: </b> </p><p id="progP"></p>
+            </div>           
+        </div>
+        <div id="parr" class="parr">
+
+        </div>
+   
+        
+
+        <script src="index.js"></script> 
+    </body>
+</html>
